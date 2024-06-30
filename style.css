@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+
+
+.container_bb{
+	max-width: 1300px;
+	padding: 0 10px;
+	margin-top: 0px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 27px;
+	font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+
+}
+
+
+
+.row{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
+.question__cards{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	gap: 10px;
+	margin: 190px;
+}
+
+
+
+body{
+	background-color:rgb(177, 166, 166) ;
+}
+
+
+
+h2{
+	font-weight: normal;
+	margin-top: 55px;
+	color:white;
+}
+
+
+
+header{
+	background-color: black;
+	color: white;
+}
+
+
+
+header a{
+	color: white;
+	text-decoration: none;
+	margin-left: 35px;
+	font-size: 28px;
+	}
+
+
+
+footer{
+	margin-top: -90px;
+	background-color: black;
+    color: white;
+    font-size: 28px;
+    padding: 28px;
+}
+
+
+
+.social{
+	display: flex;
+    gap: 40px;
+	flex-direction: row;
+}
+
+
+
+.img{
+	width:100%;
+}
+
+
+
+.fighters__list-item{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	gap: 10px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-right: 320px;
+    
+}
+
+
+
+.muay{
+border-radius: 20px;
+}
+
+
+
+.coconut{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 60px;
+}
+
+
+
+.coconut_moments{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 35px;
+	margin-top: 50px; 
+}
+
+
+
+.videos{
+	display: flex;
+	margin-bottom: 100px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
+.container{
+	max-width: 1300px;
+	padding: 0 10px;
+	margin-top: 30px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-size: 27px;
+	font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+	
+}
+
+
+
+.pine-apple{
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	font-size: 20px;
+	border-radius: 4px;
+	transition: background-color 0,3s ease;
+	background-color: #f44336;
+	color: white;
+}
+
+
+
+.pine-apple:hover{
+	background-color: #d32f2f;
+}
+
+
+
+h3{
+	font-weight: weight;
+    font-family: "Jura", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}

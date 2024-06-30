@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Warrior</title>
+	<link rel="stylesheet" href="./style.css">
+	<script>
+	function redirectToNextPage1() { window.location.href = '/boxing.html';}
+	function redirectToNextPage2() { window.location.href = '/MuayThai.html';}
+	function redirectToNextPage3() { window.location.href = '/kickboxing.html';}
+	</script>
+</head>
+
+<body>
+	<header>
+		<div class="container_bb">
+			<div class="row">
+				<div class="logo">Warrior</div>
+				
+				<nav>
+					
+					<a href="./index.html">Home</a>
+					<a href="./MuayThai.html">MuayThai</a>
+					<a href="./Kickboxing.html">kickboxing</a>
+					<a href="./Boxing.html">Boxing</a>
+					
+				</nav>
+				
+			</div>
+		</div>
+		
+	</header>
+
+	<main>
+		<section class="hero">
+			<img class="img" src="img\Logo_home.png" alt="">
+		</section>
+		<section class="descr">
+			<div class="container">
+				<p>Вітaємо вас на нашому інформаційному ресурсі, присвяченому світу бойових мистецтв: муай Тай, кікбоксингу та боксу. Ми зібрали найактуальнішу та найцікавішу інформацію, щоб ви могли дізнатися більше про ці захоплюючі види спорту.</p>
+			</div>
+		</section>
+		<section class="question">
+			<div class="container">
+				<h2>Про що ви хотілись дізнатись?</h2>
+			</div>
+
+			<div class="question__cards">
+				<div class="question__cards-item">
+					<img src="img\boxing_home.png" alt="Clickable Image" onclick="redirectToNextPage1()">
+					
+				</div>
+				<div class="question__cards-item">
+					<img src="img\MuayThai_home.png" alt="Clickable Image" onclick="redirectToNextPage2()">
+					
+				</div>
+				<div class="question__cards-item">
+					<img src="img\Kick_home.png" alt="Clickable Image" onclick="redirectToNextPage3()">
+					
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				
+				<div class="social">
+					<img src="img\facebook.png" alt="">
+					<img src="img\inst.png" alt="">
+					<img src="img\tg.png" alt="">
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
